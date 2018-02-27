@@ -13,4 +13,10 @@ HyperloopNetworkAnalysis.R uses igraph to create a network map of each connected
 CongestionIndex.R compares the drivetime between cities at 1:00 am vs. 5:00 pm and then ranks the drivetimes
   This indicates how congested a city is at rush hour relative to a time where there is presumably zero traffic (1 am)
 
+HyperloopLandPrice.R takes the average pastureland price on a state-by-state basis and calculates the average pastureland price 
+  for each route, based on the departure and arrival cities for the route.  It also produces a map similar to GDPMap.R, except
+  the dots correspond to the land cost rather than GDP.
+
 smallmaps_v2.R creates maps for each regional hyperloop network
+
+
